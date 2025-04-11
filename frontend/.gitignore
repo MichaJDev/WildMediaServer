@@ -1,0 +1,93 @@
+# ========================
+# SSL/TLS Certificates
+# ========================
+# mkcert generated certificates
+*.pem
+*.crt
+*.key
+*.cert
+fullchain.pem
+privkey.pem
+localhost.pem
+localhost-key.pem
+localhost.crt
+localhost.key
+*.localhost.pem
+*.localhost-key.pem
+*.ca.pem
+
+# ========================
+# Nuxt/Vue Specific
+# ========================
+node_modules/
+.nuxt/
+.output/
+dist/
+.client.d.ts
+.server.d.ts
+.cache/
+.nitro/
+.generate/
+.vuepress/
+*.js.map
+*.css.map
+.swc/
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+.secret*
+*.secret
+.env.local
+config.local.*
+.env.production
+auth.json
+firebase-config.json
+serviceAccountKey.json
+*.keyring
+*.gpg
+
+# ========================
+# Development & Build
+# ========================
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*~
+.envrc
+.vercel/
+.netlify/
+.aws/
+.gcloud
+
+# ========================
+# Logs and databases
+# ========================
+*.log
+*.sqlite
+*-journal
+*.db
+*.db-journal
+
+# ========================
+# Testing
+# ========================
+coverage/
+.nyc_output/
+test-results.xml
+
+# ========================
+# Editor
+# ========================
+.idea/
+.vscode/
+*.sw?

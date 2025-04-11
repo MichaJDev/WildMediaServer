@@ -1,0 +1,112 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+*.log
+*.pot
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.mypy_cache/
+.pytest_cache/
+instance/
+.webassets-cache
+.scrapy
+.ipynb_checkpoints
+sitecustomize.py
+
+# ==============================
+# Node.js/Nuxt/Vue
+# ==============================
+node_modules/
+.nuxt/
+.output/
+.cache/
+.client.d.ts
+.server.d.ts
+dist/
+.build/
+.generate/
+.vuepress/
+.vscode/
+*.js.map
+*.css.map
+
+# ==============================
+# Environment Files
+# ==============================
+.env
+.env.*
+!.env.example
+.env.local
+.env.development
+.env.production
+.env.test
+.secret
+.envrc
+.env.prod
+.env.staging
+.env.backup
+
+# ==============================
+# Editor & OS
+# ==============================
+.DS_Store
+.DS_Store?
+*.swp
+*.swo
+*~
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==============================
+# Logs and databases
+# ==============================
+*.log
+*.sql
+*.sqlite
+*.db
+*.db-journal
+
+# ==============================
+# Testing
+# ==============================
+junit.xml
+coverage/
+.nyc_output/
+
+# ==============================
+# Package managers
+# ==============================
+jspm_packages/
+.npm/
+.yarn-integrity
+.pnpm-debug.log
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
