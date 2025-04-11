@@ -7,8 +7,8 @@ Media server with Nuxt/Vue frontend and Python backend for media management and 
 ```mermaid
 pie
     title Technology Distribution
-    "Nuxt/Vue (Frontend)": 60
-    "Python (Backend)": 40
+    "Nuxt/Vue (Frontend)": 3
+    "Python (Backend)": 97
 ```
 
 _Note: Actual distribution may vary based on configuration. Chart represents approximate codebase focus._
